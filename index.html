@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shizan's PortFolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <script src="script.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <a href="#">Shizan's<span>PortFolio</span></a>
+            </div>
+            <div class="right">
+                <ul id="sidemenu">
+                    <li><a href="#">Home></a></li>
+                    <li><a href="#second">About Me></a></li>
+                    <li><a href="#third">Projects></a></li>
+                    <li><a href="#five">Certifications></a></li>
+                    <li><a href="#four">Connect></a></li>
+                    <i class='bx bx-x' onclick="closeMenu()"></i>
+                </ul>
+                <i class='bx bx-menu' onclick="openMenu()"></i>
+            </div>
+        </nav>
+    </header>
+    <section id="first">
+        <div class="about">
+            <div class="name"> 
+                Hi, I'm <span class="color">Mohammed Shizan</span>
+            </div>
+            <div>and I am a Passionate,</div>
+            <span id="element"></span>
+            <div class="button">
+                <button class="btn">
+                    <a href="assets/Shizan-Resume.pdf" download>Download Resume</a>
+                </button>
+                <button class="btn">
+                    <a href="https://github.com/mohammedshizan" target="_blank">Visit GitHub</a>
+                </button>
+            </div>
+            <div class="logo">
+                <a href="https://in.linkedin.com/in/mohammed-shizan-87111b26a" target="_blank"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="https://www.instagram.com/mohammed_shizan/" target="_blank"><i
+                        class='bx bxl-instagram'></i></a>
+                <a href="https://www.whatsapp.com/" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+            </div>
+        </div>
+        <div class="photo">
+            <img src="assets/im.png" alt="shizan">
+        </div>
+    </section>
+    <section id="second">
+        <div class="about-left">
+            <img src="assets/image.jpeg" alt="shizan">
+        </div>
+        <div class="about-right">
+            <div class="section-title">
+                <h2 class="sub-title">About <span>Me</span></h2>
+                <h3 class="title">Software Engineer</h3>
+            </div>
+            <p class="desc">
+                "As a dedicated student, I'm on a journey of continuous learning and growth.
+                I'm passionate about Software Development. I thrive on challenges and believe that every experience is an opportunity to gain knowledge!"
+            </p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="openTab('education')">Education</p>
+                <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                <p class="tab-links active-link" onclick="openTab('experience')">Experience</p>
+            </div>
+            <div class="tab-contents active-tab" id="education">
+                <ul>
+                    <li>
+                        <span>2021-Current</span> <br> BTech in CSE from DRIEMS University
+                    </li>
+                    <li>
+                        <span>2019-2021</span> <br> CHSE in Science from CHRIST College
+                    </li>
+                    <li>
+                        <span>2009-2019</span> <br> ICSE in Science-IT from SCB Medical Public School
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="skills">
+                <ul>
+                    <li>
+                        <span>C || C++ || JAVA || PYTHON </span> <br />
+                        Programming Languages
+                    </li>
+                    <li>
+                        <span>Web Development</span> <br />
+                        Web app development
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li>
+                        <span>2023-2023</span> <br> Web Intern at BHARAT INTERN
+                    </li>
+                    <li>
+                        <span>2023-2023</span> <br> Java Intern at OASIS INFOBYTE
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="third">
+        <div class="section-title">
+            <h2 class="sub-title">My <span>Projects</span></h2>
+            <h3 class="title">Awesome Works</h3>
+        </div>
+        <div class="project-list">
+            <div class="project">
+                <img src="assets/project1.jpg" alt="shizan">
+                <div class="layer">
+                    <h2>Netflix-Clone</h2>
+                    <p>Your gateway to an immersive streaming adventure! Crafted with HTML, CSS, and JavaScript, this project mirrors the beloved Netflix interface!</p>
+                    <a href="https://github.com/mohammedshizan/Netflix-Clone.git" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="assets/project2.jpg" alt="shizan">
+                <div class="layer">
+                    <h2>Portfolio Website</h2>
+                    <p>Welcome to my Website!I have crafted a dynamic platform to showcase my skill, this empowers visitors to explore my professional journey!</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="assets/project3.jpg" alt="shizan">
+                <div class="layer">
+                    <h2>Weather App</h2>
+                    <p>"Stay ahead of the weather with our intuitive app!Get real-time updates,hourly forecasts.Plan your day confidently with accurate weather information."</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="five">
+        <div class="section-title">
+            <h2 class="sub-title">My <span>Certifications</span></h2>
+        </div>
+        <div class="services">
+            <div>
+                <i class='bx bxl-google'></i>
+                <h2>Python Crash Course</h2>
+                <p>Certified for crash course on python course, authorized by Google and offered through Coursera </p>
+            </div>
+            <div>
+                <i class='bx bxl-meta'></i>
+                <h2>The Full Stack</h2>
+                <p>Certified for the Full stack website Development course, authorized by Meta and offered through Coursera</p>
+            </div>
+            <div>
+                <i class='bx bxl-microsoft'></i>
+                <h2>Microsoft Azure SQL </h2>
+                <p>Certified for Microsoft Azure SQL course, authorized by Microsoft and offered through Coursera</p>
+            </div>
+        </div>
+    </section>
+    <section id="four">
+        <div class="section-title">
+            <h2 class="sub-title">Con<span>nect</span></h2>
+            <h3 class="title">Get in Touch</h3>
+        </div>
+        <div class="content">
+            <div class="contact-left">
+                <form action="">
+                    <input type="text" name="name" id="name" placeholder="Your Name" required />
+                    <input type="email" name="email" id="email" placeholder="Your Email" required />
+                    <textarea name="message" id="message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit">Send Message <i class='bx bx-right-arrow-alt'></i></button>
+                </form>
+            </div>
+            <div class="vl"></div>
+            <div class="contact-right">
+                <div class="col address">
+                    <i class='bx bx-current-location' ></i>
+                    <div class="info">
+                        <h2 class="title">Address</h2>
+                        <p>Manglabag Mirkamal Patna, Cuttack-753001</p>
+                    </div>
+                </div>
+                <div class="col phone">
+                    <i class='bx bxs-phone'></i>
+                    <div class="info">
+                        <h2 class="title">Phone</h2>
+                        <p>+91 9040541791</p>
+                    </div>
+                </div>
+                <div class="col email">
+                    <i class='bx bxs-envelope'></i>
+                    <div class="info">
+                        <h2 class="title">Email</h2>
+                        <p>mohammedshizan411@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            Copyright &#169; ShizanPortfolio | All rights reserved
+        </div>
+    </section>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Learner', 'Coder', 'Explorer.'],
+            typeSpeed: 75,
+            loop: true,
+        });
+    </script>
+</body>
+
+</html>
