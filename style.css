@@ -53,7 +53,7 @@ nav {
 .right ul li a:hover::after{
     width: 100%;
 }
-.right .bx{
+.right .bi{
     display: none;
 }
 
@@ -414,7 +414,7 @@ nav {
 /* Responsive Design */
 
 @media(max-width: 1050px){
-    .right .bx-x{
+    .right .bi-x-lg{
         display: block;
         color: #faca22;
         font-size: 22px;
@@ -430,13 +430,13 @@ nav {
         z-index: 2;
         transition: all 0.5s;
     }
-    .right .bx-menu{
+    .right .bi-list{
         display: block;
         color: #faca22;
         margin: 25px;
         font-size: 22px;
     }
-    .right ul .bx-x{
+    .right ul .bi-x-lg{
         position: absolute;
         top: 25px;
         left: 25px;
