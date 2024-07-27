@@ -546,7 +546,7 @@ nav {
         white-space: pre;
     }
     #first .name{
-       margin-left: auto;
+       margin-left: 12px;
     }
 }
 
@@ -604,7 +604,7 @@ nav {
         white-space: pre;
     }
     #first .name{
-        margin-left: auto;
+       margin-left: 12px;
     }
 }
 @media(max-width: 377px){
@@ -624,7 +624,7 @@ nav {
         white-space: pre;
     }
     #first .name{
-       margin-left: auto;
+      margin-left: 12px;
     }
 }
 @media(max-width: 275px){
@@ -641,6 +641,6 @@ nav {
         white-space: pre;
     }
     #first .name{
-       margin-left: auto;
+      margin-left: 12px;
     }
 }
