@@ -540,7 +540,10 @@ nav {
         font-size: 16px;
     }
     #first .name .color{
-        font-size: xx-large;
+        width: 100%;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: pre;
     }
 }
 
@@ -592,7 +595,10 @@ nav {
         width: 240px;
     }
     #first .name .color{
-        font-size: xx-large;
+        width: 100%;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: pre;
     }
 }
 @media(max-width: 377px){
@@ -606,7 +612,10 @@ nav {
         margin: 11px -35px;
     }
     #first .name .color{
-        font-size: xx-large;
+        width: 100%;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: pre;
     }
 }
 @media(max-width: 275px){
@@ -617,6 +626,9 @@ nav {
         margin-left: 34px;
     }
     #first .name .color{
-        font-size: xx-large;
+        width: 100%;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: pre;
     }
 }
