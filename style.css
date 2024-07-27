@@ -505,6 +505,7 @@ nav {
 @media(max-width: 430px){
     #first .about .name{
         font-size: 32px;
+        margin: -8px -70px;
     }
     .about div{
         font-size: 22px;
@@ -545,9 +546,7 @@ nav {
         overflow: hidden;
         white-space: pre;
     }
-    #first .name{
-       margin-left: 12px;
-    }
+   
 }
 
 @media(max-width: 1336px){
@@ -580,7 +579,7 @@ nav {
     }
     #first .about .name{
         font-size: 32px;
-        margin: -8px -30px;
+        margin: -8px -70px;
     }
     .about div{
         font-size: 25px;
@@ -603,16 +602,14 @@ nav {
         overflow: hidden;
         white-space: pre;
     }
-    #first .name{
-       margin-left: 12px;
-    }
+    
 }
 @media(max-width: 377px){
     .photo img{
         margin: 192px -70px;
     }
     #first .about .name{
-        width: -8px -35px;
+        width: -8px -70px;
     }
     .about div{
         margin: 11px -35px;
@@ -623,9 +620,7 @@ nav {
         overflow: hidden;
         white-space: pre;
     }
-    #first .name{
-      margin-left: 12px;
-    }
+    
 }
 @media(max-width: 275px){
     .photo img{
@@ -640,7 +635,5 @@ nav {
         overflow: hidden;
         white-space: pre;
     }
-    #first .name{
-      margin-left: 12px;
-    }
+    
 }
