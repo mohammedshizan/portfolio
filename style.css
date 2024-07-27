@@ -509,7 +509,7 @@ nav {
     }
     .about div{
         font-size: 25px;
-         margin: 11px -30px;
+         margin: 11px -70px;
     }
     .about #element{
         font-size: 18px;
@@ -585,7 +585,7 @@ nav {
     .about div{
         font-size: 25px;
         width: 288px;
-        margin: 11px -30px;
+        margin: 11px -70px;
     }
     .about #element{
         font-size: 25px;
@@ -613,7 +613,7 @@ nav {
         width: -8px -70px;
     }
     .about div{
-        margin: 11px -30px;
+        margin: 11px -70px;
     }
     #first .name .color{
         width: 100%;
