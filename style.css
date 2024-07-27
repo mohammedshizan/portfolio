@@ -545,6 +545,9 @@ nav {
         overflow: hidden;
         white-space: pre;
     }
+    #first .name{
+        text-align: left;
+    }
 }
 
 @media(max-width: 1336px){
@@ -567,7 +570,7 @@ nav {
         height: 70px;
     }
     #second .about-left img{
-        margin-top: 75px;
+        margin-top: 80px;
     }
 }
 @media(max-width: 425px){
@@ -591,14 +594,17 @@ nav {
     }
     #second .about-left img{
         margin-top: 30px;
-        height: 340px;
-        width: 240px;
+        height: 350px;
+        width: 250px;
     }
     #first .name .color{
         width: 100%;
         text-overflow: ellipsis;
         overflow: hidden;
         white-space: pre;
+    }
+    #first .name{
+        text-align: left;
     }
 }
 @media(max-width: 377px){
@@ -617,6 +623,9 @@ nav {
         overflow: hidden;
         white-space: pre;
     }
+    #first .name{
+        text-align: left;
+    }
 }
 @media(max-width: 275px){
     .photo img{
@@ -630,5 +639,8 @@ nav {
         text-overflow: ellipsis;
         overflow: hidden;
         white-space: pre;
+    }
+    #first .name{
+        text-align: left;
     }
 }
