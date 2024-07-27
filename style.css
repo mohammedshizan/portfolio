@@ -514,7 +514,7 @@ nav {
         padding-right: 12%;
     }
     .about-left img{
-        width: 80%;
+        width: 70%;
     }
     .btn a{
         font-size: 14px;
@@ -538,6 +538,9 @@ nav {
     .about-right .tab-contents ul li,
     .about-right .tab-contents ul li span{
         font-size: 16px;
+    }
+    #first .name .color{
+        font-size: medium;
     }
 }
 
@@ -585,8 +588,11 @@ nav {
     }
     #second .about-left img{
         margin-top: 30px;
-        height: 350px;
-        width: 250px;
+        height: 300px;
+        width: 200px;
+    }
+    #first .name .color{
+        font-size: medium;
     }
 }
 @media(max-width: 377px){
@@ -599,6 +605,9 @@ nav {
     .about div{
         margin: 11px -35px;
     }
+    #first .name .color{
+        font-size: medium;
+    }
 }
 @media(max-width: 275px){
     .photo img{
@@ -606,5 +615,8 @@ nav {
     }
     #second .about-left img{
         margin-left: 34px;
+    }
+    #first .name .color{
+        font-size: medium;
     }
 }
