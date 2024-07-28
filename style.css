@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Anta&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
+body {
+    background-color: rgb(145, 28, 145);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
 
 nav {
     width: 100%;
