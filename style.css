@@ -418,15 +418,19 @@ nav {
     transform: translateY(-10px);
 }
 
+
 /* Responsive Design */
 
-@media(max-width: 1050px){
-    .right .bi-x-lg{
+/* General Responsive Design */
+@media (max-width: 1050px) {
+    .right .bi-x-lg,
+    .right .bi-list {
         display: block;
         color: #faca22;
         font-size: 22px;
     }
-    .right ul{
+
+    .right ul {
         background-color: black;
         position: fixed;
         top: 0;
@@ -435,220 +439,219 @@ nav {
         height: 100vh;
         padding-top: 60px;
         z-index: 2;
-        transition: all 0.5s;
+        transition: right 0.5s;
     }
-    .right .bi-list{
-        display: block;
-        color: #faca22;
-        margin: 25px;
-        font-size: 22px;
-    }
-    .right ul .bi-x-lg{
+
+    .right ul .bi-x-lg {
         position: absolute;
         top: 25px;
         left: 25px;
         cursor: pointer;
     }
-    #second .about-left{
+
+    #second .about-left {
         flex-basis: 100%;
         margin-bottom: 40px;
     }
-    #second .about-left img{
+
+    #second .about-left img {
         display: block;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
         width: 25%;
     }
-    #second .about-right{
+
+    #second .about-right {
         flex-basis: 100%;
     }
-    .about-right .tab-links{
+
+    .about-right .tab-links {
         margin-right: 60px;
         font-size: 22px;
     }
-    .about-right .tab-contents ul li{
+
+    .about-right .tab-contents ul li {
         font-size: 20px;
     }
-    .about-right .tab-contents ul li span{
+
+    .about-right .tab-contents ul li span {
         font-size: 18px;
     }
 }
 
-
-@media(max-width: 770px){
-    #first .about .name{
+@media (max-width: 770px) {
+    #first .about .name {
         font-size: 35px;
     }
-    .about div{
+
+    .about div {
         font-size: 30px;
     }
-    .about #element{
+
+    .about #element {
         font-size: 25px;
         padding-right: 20%;
     }
-    .about-left img{
+
+    .about-left img {
         width: 80%;
     }
-    .about-right .tab-links{
+
+    .about-right .tab-links {
         margin-right: 30px;
         font-size: 20px;
     }
+
     .about-right .tab-contents ul li,
-    .about-right .tab-contents ul li span{
+    .about-right .tab-contents ul li span {
         font-size: 18px;
     }
-    #four .content{
+
+    #four .content {
         flex-wrap: wrap;
     }
+
     .content .contact-left,
-    .content .contact-right{
+    .content .contact-right {
         flex-basis: 100%;
     }
-    .content .vl{
+
+    .content .vl {
         display: none;
     }
 }
 
-@media(max-width: 430px){
-    #first .about .name{
+@media (max-width: 430px) {
+    body {
+        background-color: rgb(145, 28, 145);
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+    }
+
+    .photo img {
+        width: 70%;
+        margin: 192px -60px;
+    }
+
+    #first .about .name {
         font-size: 32px;
         margin: -8px -70px;
     }
-    .about div{
+
+    .about div {
         font-size: 25px;
-         margin: 11px 0px;
+        margin: 11px -1px;
     }
-    .about #element{
-        font-size: 18px;
+
+    .about #element {
+        font-size: 32px;
         padding-right: 12%;
+        margin: 0px -70px;
     }
-    .about-left img{
-        width: 70%;
+
+    .btn a {
+        font-size: 12px;
+        padding: 4px 2px;
     }
-    .btn a{
-        font-size: 14px;
-        padding: 4px 8px;
-    }
-    .logo{
+
+    .logo {
         display: flex;
         gap: 12px;
         padding: 18px;
     }
-    .section-title .sub-title{
+
+    .section-title .sub-title {
         font-size: 36px;
     }
-    .section-title .title{
+
+    .section-title .title {
         font-size: 20px;
     }
-    .about-right .tab-links{
+
+    .about-right .tab-links {
         margin-right: 25px;
         font-size: 18px;
     }
+
     .about-right .tab-contents ul li,
-    .about-right .tab-contents ul li span{
+    .about-right .tab-contents ul li span {
         font-size: 16px;
     }
-    #first .name .color{
+
+    #first .name .color {
         width: 100%;
         text-overflow: ellipsis;
         overflow: hidden;
-        white-space: pre;
+        white-space: nowrap;
     }
-   
 }
 
-@media(max-width: 1336px){
-    #first{
+@media (max-width: 377px) {
+    .photo img {
+        margin: 192px -70px;
+    }
+
+    #first .about .name {
+        width: auto;
+    }
+
+    .about div {
+        margin: 11px -6px;
+    }
+
+    #first .name .color {
+        width: 100%;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 356px) {
+    .photo img {
+        margin: 192px -54px;
+    }
+
+    #second .about-left img {
+        margin-left: 34px;
+    }
+
+    #first .name .color {
+        width: 100%;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+}
+
+/* Simplified rules for general improvements */
+@media (max-width: 1336px) {
+    #first {
         flex-direction: column-reverse;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .photo img{
+
+    .photo img {
         width: 58%;
         margin: 176px 40px;
     }
 }
-@media(max-width: 1050px){
-    .photo img{
-        margin: 210px 40px;
+
+@media (max-width: 1050px) {
+    .photo img {
+        margin: 188px -70px;
+        width: 222%;
     }
-    nav{
+
+    nav {
         height: 70px;
     }
-    #second .about-left img{
-        margin-top: 80px;
+
+    #second .about-left img {
+        margin-top: -10px;
+        width: 60%;
     }
 }
-@media(max-width: 425px){
-    body{
-    background-color: rgb(145, 28, 145);
-    color: white;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    }
-    .photo img{
-        width:250px;
-        margin: 192px -60px;
-    }
-    #first .about .name{
-        font-size: 32px;
-        margin: -8px -70px;
-    }
-    .about div{
-        font-size: 25px;
-        width: 288px;
-        margin: 11px 0px;
-    }
-    .about #element{
-        font-size: 25px;
-        padding-right: 12%;
-        margin: 0px -68px;
-    }
-    #second .about-left img{
-        margin-top: 30px;
-        height: 350px;
-        width: 250px;
-    }
-    #first .name .color{
-        width: 100%;
-        text-overflow: ellipsis;
-        overflow: hidden;
-        white-space: pre;
-    }
-    
-}
-@media(max-width: 377px){
-    .photo img{
-        margin: 192px -70px;
-    }
-    #first .about .name{
-        width: -8px -70px;
-    }
-    .about div{
-        margin: 11px 0px;
-    }
-    #first .name .color{
-        width: 100%;
-        text-overflow: ellipsis;
-        overflow: hidden;
-        white-space: pre;
-    }
-    
-}
-@media(max-width: 275px){
-    .photo img{
-        margin: 192px -54px;
-    }
-    #second .about-left img{
-        margin-left: 34px;
-    }
-    #first .name .color{
-        width: 100%;
-        text-overflow: ellipsis;
-        overflow: hidden;
-        white-space: pre;
-    }
-    
-}
+
