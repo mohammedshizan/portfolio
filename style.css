@@ -417,6 +417,11 @@ nav {
     background-color: #faca22;
     transform: translateY(-10px);
 }
+.right .sidemenu{
+    position: fixed;
+    right: -200px;
+    transition: right -0.3s;
+}
 
 
 /* Responsive Design */
