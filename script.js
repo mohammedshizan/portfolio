@@ -12,21 +12,6 @@ function openTab(tabname) {
     document.getElementById(tabname).classList.add("active-tab");
 }
 
-// Get SideMenu
-var SideMenu = document.getElementById("sidemenu");
 
-// On openMenu function call
-function openMenu(){
-    if (SideMenu) {
-        SideMenu.style.right = "0";
-    }
-}
-
-// On closeMenu function call
-function closeMenu(){
-    if (SideMenu) {
-        SideMenu.style.right = "-200px";
-    }
-}
 
 
